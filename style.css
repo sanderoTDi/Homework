@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+    background-color: crimson;
+    box-shadow:0 0 40px crimson;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img{
+    transition: transform 0.2s ease;
+    border-radius: 20px;
+}
+
+a{
+    color: white;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
